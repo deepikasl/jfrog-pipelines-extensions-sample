@@ -31,3 +31,6 @@ pipelines:
           inputResources:
            - name: MyTest
            - name: MyGitHub
+        execution:
+          onStart:
+            - echo "Preparing for work..."
